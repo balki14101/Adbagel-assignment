@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, Text} from 'react-native';
 
-import colors from '../constants/colors';
+import colors from '../../constants/colors';
 
 const details = () => {
   return (

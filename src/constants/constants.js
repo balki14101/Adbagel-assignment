@@ -316,755 +316,343 @@ const country = [
   {name: 'Zimbabwe', code: 'ZW'},
 ];
 const nationality = [
-  {
-    nationality: 'Afghan',
-  },
-  {
-    nationality: '\u00c5land Island',
-  },
-  {
-    nationality: 'Albanian',
-  },
-  {
-    nationality: 'Algerian',
-  },
-  {
-    nationality: 'American Samoan',
-  },
-  {
-    nationality: 'Andorran',
-  },
-  {
-    nationality: 'Angolan',
-  },
-  {
-    nationality: 'Anguillan',
-  },
-  {
-    nationality: 'Antarctic',
-  },
-  {
-    nationality: 'Antiguan or Barbudan',
-  },
-  {
-    nationality: 'Argentine',
-  },
-  {
-    nationality: 'Armenian',
-  },
-  {
-    nationality: 'Aruban',
-  },
-  {
-    nationality: 'Australian',
-  },
-  {
-    nationality: 'Austrian',
-  },
-  {
-    nationality: 'Azerbaijani, Azeri',
-  },
-  {
-    nationality: 'Bahamian',
-  },
-  {
-    nationality: 'Bahraini',
-  },
-  {
-    nationality: 'Bangladeshi',
-  },
-  {
-    nationality: 'Barbadian',
-  },
-  {
-    nationality: 'Belarusian',
-  },
-  {
-    nationality: 'Belgian',
-  },
-  {
-    nationality: 'Belizean',
-  },
-  {
-    nationality: 'Beninese, Beninois',
-  },
-  {
-    nationality: 'Bermudian, Bermudan',
-  },
-  {
-    nationality: 'Bhutanese',
-  },
-  {
-    nationality: 'Bolivian',
-  },
-  {
-    nationality: 'Bonaire',
-  },
-  {
-    nationality: 'Bosnian or Herzegovinian',
-  },
-  {
-    nationality: 'Motswana, Botswanan',
-  },
-  {
-    nationality: 'Bouvet Island',
-  },
-  {
-    nationality: 'Brazilian',
-  },
-  {
-    nationality: 'BIOT',
-  },
-  {
-    nationality: 'Bruneian',
-  },
-  {
-    nationality: 'Bulgarian',
-  },
-  {
-    nationality: 'Burkinab\u00e9',
-  },
-  {
-    nationality: 'Burundian',
-  },
-  {
-    nationality: 'Cabo Verdean',
-  },
-  {
-    nationality: 'Cambodian',
-  },
-  {
-    nationality: 'Cameroonian',
-  },
-  {
-    nationality: 'Canadian',
-  },
-  {
-    nationality: 'Caymanian',
-  },
-  {
-    nationality: 'Central African',
-  },
-  {
-    nationality: 'Chadian',
-  },
-  {
-    nationality: 'Chilean',
-  },
-  {
-    nationality: 'Chinese',
-  },
-  {
-    nationality: 'Christmas Island',
-  },
-  {
-    nationality: 'Cocos Island',
-  },
-  {
-    nationality: 'Colombian',
-  },
-  {
-    nationality: 'Comoran, Comorian',
-  },
-  {
-    nationality: 'Congolese',
-  },
-  {
-    nationality: 'Congolese',
-  },
-  {
-    nationality: 'Cook Island',
-  },
-  {
-    nationality: 'Costa Rican',
-  },
-  {
-    nationality: 'Ivorian',
-  },
-  {
-    nationality: 'Croatian',
-  },
-  {
-    nationality: 'Cuban',
-  },
-  {
-    nationality: 'Cura\u00e7aoan',
-  },
-  {
-    nationality: 'Cypriot',
-  },
-  {
-    nationality: 'Czech',
-  },
-  {
-    nationality: 'Danish',
-  },
-  {
-    nationality: 'Djiboutian',
-  },
-  {
-    nationality: 'Dominican',
-  },
-  {
-    nationality: 'Dominican',
-  },
-  {
-    nationality: 'Ecuadorian',
-  },
-  {
-    nationality: 'Egyptian',
-  },
-  {
-    nationality: 'Salvadoran',
-  },
-  {
-    nationality: 'Equatorial Guinean, Equatoguinean',
-  },
-  {
-    nationality: 'Eritrean',
-  },
-  {
-    nationality: 'Estonian',
-  },
-  {
-    nationality: 'Ethiopian',
-  },
-  {
-    nationality: 'Falkland Island',
-  },
-  {
-    nationality: 'Faroese',
-  },
-  {
-    nationality: 'Fijian',
-  },
-  {
-    nationality: 'Finnish',
-  },
-  {
-    nationality: 'French',
-  },
-  {
-    nationality: 'French Guianese',
-  },
-  {
-    nationality: 'French Polynesian',
-  },
-  {
-    nationality: 'French Southern Territories',
-  },
-  {
-    nationality: 'Gabonese',
-  },
-  {
-    nationality: 'Gambian',
-  },
-  {
-    nationality: 'Georgian',
-  },
-  {
-    nationality: 'German',
-  },
-  {
-    nationality: 'Ghanaian',
-  },
-  {
-    nationality: 'Gibraltar',
-  },
-  {
-    nationality: 'Greek, Hellenic',
-  },
-  {
-    nationality: 'Greenlandic',
-  },
-  {
-    nationality: 'Grenadian',
-  },
-  {
-    nationality: 'Guadeloupe',
-  },
-  {
-    nationality: 'Guamanian, Guambat',
-  },
-  {
-    nationality: 'Guatemalan',
-  },
-  {
-    nationality: 'Channel Island',
-  },
-  {
-    nationality: 'Guinean',
-  },
-  {
-    nationality: 'Bissau-Guinean',
-  },
-  {
-    nationality: 'Guyanese',
-  },
-  {
-    nationality: 'Haitian',
-  },
-  {
-    nationality: 'Heard Island or McDonald Islands',
-  },
-  {
-    nationality: 'Vatican',
-  },
-  {
-    nationality: 'Honduran',
-  },
-  {
-    nationality: 'Hong Kong, Hong Kongese',
-  },
-  {
-    nationality: 'Hungarian, Magyar',
-  },
-  {
-    nationality: 'Icelandic',
-  },
-  {
-    nationality: 'Indian',
-  },
-  {
-    nationality: 'Indonesian',
-  },
-  {
-    nationality: 'Iranian, Persian',
-  },
-  {
-    nationality: 'Iraqi',
-  },
-  {
-    nationality: 'Irish',
-  },
-  {
-    nationality: 'Manx',
-  },
-  {
-    nationality: 'Israeli',
-  },
-  {
-    nationality: 'Italian',
-  },
-  {
-    nationality: 'Jamaican',
-  },
-  {
-    nationality: 'Japanese',
-  },
-  {
-    nationality: 'Channel Island',
-  },
-  {
-    nationality: 'Jordanian',
-  },
-  {
-    nationality: 'Kazakhstani, Kazakh',
-  },
-  {
-    nationality: 'Kenyan',
-  },
-  {
-    nationality: 'I-Kiribati',
-  },
-  {
-    nationality: 'North Korean',
-  },
-  {
-    nationality: 'South Korean',
-  },
-  {
-    nationality: 'Kuwaiti',
-  },
-  {
-    nationality: 'Kyrgyzstani, Kyrgyz, Kirgiz, Kirghiz',
-  },
-  {
-    nationality: 'Lao, Laotian',
-  },
-  {
-    nationality: 'Latvian',
-  },
-  {
-    nationality: 'Lebanese',
-  },
-  {
-    nationality: 'Basotho',
-  },
-  {
-    nationality: 'Liberian',
-  },
-  {
-    nationality: 'Libyan',
-  },
-  {
-    nationality: 'Liechtenstein',
-  },
-  {
-    nationality: 'Lithuanian',
-  },
-  {
-    nationality: 'Luxembourg, Luxembourgish',
-  },
-  {
-    nationality: 'Macanese, Chinese',
-  },
-  {
-    nationality: 'Macedonian',
-  },
-  {
-    nationality: 'Malagasy',
-  },
-  {
-    nationality: 'Malawian',
-  },
-  {
-    nationality: 'Malaysian',
-  },
-  {
-    nationality: 'Maldivian',
-  },
-  {
-    nationality: 'Malian, Malinese',
-  },
-  {
-    nationality: 'Maltese',
-  },
-  {
-    nationality: 'Marshallese',
-  },
-  {
-    nationality: 'Martiniquais, Martinican',
-  },
-  {
-    nationality: 'Mauritanian',
-  },
-  {
-    nationality: 'Mauritian',
-  },
-  {
-    nationality: 'Mahoran',
-  },
-  {
-    nationality: 'Mexican',
-  },
-  {
-    nationality: 'Micronesian',
-  },
-  {
-    nationality: 'Moldovan',
-  },
-  {
-    nationality: 'Mon\u00e9gasque, Monacan',
-  },
-  {
-    nationality: 'Mongolian',
-  },
-  {
-    nationality: 'Montenegrin',
-  },
-  {
-    nationality: 'Montserratian',
-  },
-  {
-    nationality: 'Moroccan',
-  },
-  {
-    nationality: 'Mozambican',
-  },
-  {
-    nationality: 'Burmese',
-  },
-  {
-    nationality: 'Namibian',
-  },
-  {
-    nationality: 'Nauruan',
-  },
-  {
-    nationality: 'Nepali, Nepalese',
-  },
-  {
-    nationality: 'Dutch, Netherlandic',
-  },
-  {
-    nationality: 'New Caledonian',
-  },
-  {
-    nationality: 'New Zealand, NZ',
-  },
-  {
-    nationality: 'Nicaraguan',
-  },
-  {
-    nationality: 'Nigerien',
-  },
-  {
-    nationality: 'Nigerian',
-  },
-  {
-    nationality: 'Niuean',
-  },
-  {
-    nationality: 'Norfolk Island',
-  },
-  {
-    nationality: 'Northern Marianan',
-  },
-  {
-    nationality: 'Norwegian',
-  },
-  {
-    nationality: 'Omani',
-  },
-  {
-    nationality: 'Pakistani',
-  },
-  {
-    nationality: 'Palauan',
-  },
-  {
-    nationality: 'Palestinian',
-  },
-  {
-    nationality: 'Panamanian',
-  },
-  {
-    nationality: 'Papua New Guinean, Papuan',
-  },
-  {
-    nationality: 'Paraguayan',
-  },
-  {
-    nationality: 'Peruvian',
-  },
-  {
-    nationality: 'Philippine, Filipino',
-  },
-  {
-    nationality: 'Pitcairn Island',
-  },
-  {
-    nationality: 'Polish',
-  },
-  {
-    nationality: 'Portuguese',
-  },
-  {
-    nationality: 'Puerto Rican',
-  },
-  {
-    nationality: 'Qatari',
-  },
-  {
-    nationality: 'R\u00e9unionese, R\u00e9unionnais',
-  },
-  {
-    nationality: 'Romanian',
-  },
-  {
-    nationality: 'Russian',
-  },
-  {
-    nationality: 'Rwandan',
-  },
-  {
-    nationality: 'Barth\u00e9lemois',
-  },
-  {
-    nationality: 'Saint Helenian',
-  },
-  {
-    nationality: 'Kittitian or Nevisian',
-  },
-  {
-    nationality: 'Saint Lucian',
-  },
-  {
-    nationality: 'Saint-Martinoise',
-  },
-  {
-    nationality: 'Saint-Pierrais or Miquelonnais',
-  },
-  {
-    nationality: 'Saint Vincentian, Vincentian',
-  },
-  {
-    nationality: 'Samoan',
-  },
-  {
-    nationality: 'Sammarinese',
-  },
-  {
-    nationality: 'S\u00e3o Tom\u00e9an',
-  },
-  {
-    nationality: 'Saudi, Saudi Arabian',
-  },
-  {
-    nationality: 'Senegalese',
-  },
-  {
-    nationality: 'Serbian',
-  },
-  {
-    nationality: 'Seychellois',
-  },
-  {
-    nationality: 'Sierra Leonean',
-  },
-  {
-    nationality: 'Singaporean',
-  },
-  {
-    nationality: 'Sint Maarten',
-  },
-  {
-    nationality: 'Slovak',
-  },
-  {
-    nationality: 'Slovenian, Slovene',
-  },
-  {
-    nationality: 'Solomon Island',
-  },
-  {
-    nationality: 'Somali, Somalian',
-  },
-  {
-    nationality: 'South African',
-  },
-  {
-    nationality: 'South Georgia or South Sandwich Islands',
-  },
-  {
-    nationality: 'South Sudanese',
-  },
-  {
-    nationality: 'Spanish',
-  },
-  {
-    nationality: 'Sri Lankan',
-  },
-  {
-    nationality: 'Sudanese',
-  },
-  {
-    nationality: 'Surinamese',
-  },
-  {
-    nationality: 'Svalbard',
-  },
-  {
-    nationality: 'Swazi',
-  },
-  {
-    nationality: 'Swedish',
-  },
-  {
-    nationality: 'Swiss',
-  },
-  {
-    nationality: 'Syrian',
-  },
-  {
-    nationality: 'Chinese, Taiwanese',
-  },
-  {
-    nationality: 'Tajikistani',
-  },
-  {
-    nationality: 'Tanzanian',
-  },
-  {
-    nationality: 'Thai',
-  },
-  {
-    nationality: 'Timorese',
-  },
-  {
-    nationality: 'Togolese',
-  },
-  {
-    nationality: 'Tokelauan',
-  },
-  {
-    nationality: 'Tongan',
-  },
-  {
-    nationality: 'Trinidadian or Tobagonian',
-  },
-  {
-    nationality: 'Tunisian',
-  },
-  {
-    nationality: 'Turkish',
-  },
-  {
-    nationality: 'Turkmen',
-  },
-  {
-    nationality: 'Turks and Caicos Island',
-  },
-  {
-    nationality: 'Tuvaluan',
-  },
-  {
-    nationality: 'Ugandan',
-  },
-  {
-    nationality: 'Ukrainian',
-  },
-  {
-    nationality: 'Emirati, Emirian, Emiri',
-  },
-  {
-    nationality: 'British, UK',
-  },
-  {
-    nationality: 'American',
-  },
-  {
-    nationality: 'American',
-  },
-  {
-    nationality: 'Uruguayan',
-  },
-  {
-    nationality: 'Uzbekistani, Uzbek',
-  },
-  {
-    nationality: 'Ni-Vanuatu, Vanuatuan',
-  },
-  {
-    nationality: 'Venezuelan',
-  },
-  {
-    nationality: 'Vietnamese',
-  },
-  {
-    nationality: 'British Virgin Island',
-  },
-  {
-    nationality: 'U.S. Virgin Island',
-  },
-  {
-    nationality: 'Wallis and Futuna, Wallisian or Futunan',
-  },
-  {
-    nationality: 'Sahrawi, Sahrawian, Sahraouian',
-  },
-  {
-    nationality: 'Yemeni',
-  },
-  {
-    nationality: 'Zambian',
-  },
-  {
-    nationality: 'Zimbabwean',
-  },
+  {nationality: 'Afghan'},
+  {nationality: '\u00c5land Island'},
+  {nationality: 'Albanian'},
+  {nationality: 'Algerian'},
+  {nationality: 'American Samoan'},
+  {nationality: 'Andorran'},
+  {nationality: 'Angolan'},
+  {nationality: 'Anguillan'},
+  {nationality: 'Antarctic'},
+  {nationality: 'Antiguan or Barbudan'},
+  {nationality: 'Argentine'},
+  {nationality: 'Armenian'},
+  {nationality: 'Aruban'},
+  {nationality: 'Australian'},
+  {nationality: 'Austrian'},
+  {nationality: 'Azerbaijani, Azeri'},
+  {nationality: 'Bahamian'},
+  {nationality: 'Bahraini'},
+  {nationality: 'Bangladeshi'},
+  {nationality: 'Barbadian'},
+  {nationality: 'Belarusian'},
+  {nationality: 'Belgian'},
+  {nationality: 'Belizean'},
+  {nationality: 'Beninese, Beninois'},
+  {nationality: 'Bermudian, Bermudan'},
+  {nationality: 'Bhutanese'},
+  {nationality: 'Bolivian'},
+  {nationality: 'Bonaire'},
+  {nationality: 'Bosnian or Herzegovinian'},
+  {nationality: 'Motswana, Botswanan'},
+  {nationality: 'Bouvet Island'},
+  {nationality: 'Brazilian'},
+  {nationality: 'BIOT'},
+  {nationality: 'Bruneian'},
+  {nationality: 'Bulgarian'},
+  {nationality: 'Burkinab\u00e9'},
+  {nationality: 'Burundian'},
+  {nationality: 'Cabo Verdean'},
+  {nationality: 'Cambodian'},
+  {nationality: 'Cameroonian'},
+  {nationality: 'Canadian'},
+  {nationality: 'Caymanian'},
+  {nationality: 'Central African'},
+  {nationality: 'Chadian'},
+  {nationality: 'Chilean'},
+  {nationality: 'Chinese'},
+  {nationality: 'Christmas Island'},
+  {nationality: 'Cocos Island'},
+  {nationality: 'Colombian'},
+  {nationality: 'Comoran, Comorian'},
+  {nationality: 'Congolese'},
+  {nationality: 'Congolese'},
+  {nationality: 'Cook Island'},
+  {nationality: 'Costa Rican'},
+  {nationality: 'Ivorian'},
+  {nationality: 'Croatian'},
+  {nationality: 'Cuban'},
+  {nationality: 'Cura\u00e7aoan'},
+  {nationality: 'Cypriot'},
+  {nationality: 'Czech'},
+  {nationality: 'Danish'},
+  {nationality: 'Djiboutian'},
+  {nationality: 'Dominican'},
+  {nationality: 'Dominican'},
+  {nationality: 'Ecuadorian'},
+  {nationality: 'Egyptian'},
+  {nationality: 'Salvadoran'},
+  {nationality: 'Equatorial Guinean, Equatoguinean'},
+  {nationality: 'Eritrean'},
+  {nationality: 'Estonian'},
+  {nationality: 'Ethiopian'},
+  {nationality: 'Falkland Island'},
+  {nationality: 'Faroese'},
+  {nationality: 'Fijian'},
+  {nationality: 'Finnish'},
+  {nationality: 'French'},
+  {nationality: 'French Guianese'},
+  {nationality: 'French Polynesian'},
+  {nationality: 'French Southern Territories'},
+  {nationality: 'Gabonese'},
+  {nationality: 'Gambian'},
+  {nationality: 'Georgian'},
+  {nationality: 'German'},
+  {nationality: 'Ghanaian'},
+  {nationality: 'Gibraltar'},
+  {nationality: 'Greek, Hellenic'},
+  {nationality: 'Greenlandic'},
+  {nationality: 'Grenadian'},
+  {nationality: 'Guadeloupe'},
+  {nationality: 'Guamanian, Guambat'},
+  {nationality: 'Guatemalan'},
+  {nationality: 'Channel Island'},
+  {nationality: 'Guinean'},
+  {nationality: 'Bissau-Guinean'},
+  {nationality: 'Guyanese'},
+  {nationality: 'Haitian'},
+  {nationality: 'Heard Island or McDonald Islands'},
+  {nationality: 'Vatican'},
+  {nationality: 'Honduran'},
+  {nationality: 'Hong Kong, Hong Kongese'},
+  {nationality: 'Hungarian, Magyar'},
+  {nationality: 'Icelandic'},
+  {nationality: 'Indian'},
+  {nationality: 'Indonesian'},
+  {nationality: 'Iranian, Persian'},
+  {nationality: 'Iraqi'},
+  {nationality: 'Irish'},
+  {nationality: 'Manx'},
+  {nationality: 'Israeli'},
+  {nationality: 'Italian'},
+  {nationality: 'Jamaican'},
+  {nationality: 'Japanese'},
+  {nationality: 'Channel Island'},
+  {nationality: 'Jordanian'},
+  {nationality: 'Kazakhstani, Kazakh'},
+  {nationality: 'Kenyan'},
+  {nationality: 'I-Kiribati'},
+  {nationality: 'North Korean'},
+  {nationality: 'South Korean'},
+  {nationality: 'Kuwaiti'},
+  {nationality: 'Kyrgyzstani, Kyrgyz, Kirgiz, Kirghiz'},
+  {nationality: 'Lao, Laotian'},
+  {nationality: 'Latvian'},
+  {nationality: 'Lebanese'},
+  {nationality: 'Basotho'},
+  {nationality: 'Liberian'},
+  {nationality: 'Libyan'},
+  {nationality: 'Liechtenstein'},
+  {nationality: 'Lithuanian'},
+  {nationality: 'Luxembourg, Luxembourgish'},
+  {nationality: 'Macanese, Chinese'},
+  {nationality: 'Macedonian'},
+  {nationality: 'Malagasy'},
+  {nationality: 'Malawian'},
+  {nationality: 'Malaysian'},
+  {nationality: 'Maldivian'},
+  {nationality: 'Malian, Malinese'},
+  {nationality: 'Maltese'},
+  {nationality: 'Marshallese'},
+  {nationality: 'Martiniquais, Martinican'},
+  {nationality: 'Mauritanian'},
+  {nationality: 'Mauritian'},
+  {nationality: 'Mahoran'},
+  {nationality: 'Mexican'},
+  {nationality: 'Micronesian'},
+  {nationality: 'Moldovan'},
+  {nationality: 'Mon\u00e9gasque, Monacan'},
+  {nationality: 'Mongolian'},
+  {nationality: 'Montenegrin'},
+  {nationality: 'Montserratian'},
+  {nationality: 'Moroccan'},
+  {nationality: 'Mozambican'},
+  {nationality: 'Burmese'},
+  {nationality: 'Namibian'},
+  {nationality: 'Nauruan'},
+  {nationality: 'Nepali, Nepalese'},
+  {nationality: 'Dutch, Netherlandic'},
+  {nationality: 'New Caledonian'},
+  {nationality: 'New Zealand, NZ'},
+  {nationality: 'Nicaraguan'},
+  {nationality: 'Nigerien'},
+  {nationality: 'Nigerian'},
+  {nationality: 'Niuean'},
+  {nationality: 'Norfolk Island'},
+  {nationality: 'Northern Marianan'},
+  {nationality: 'Norwegian'},
+  {nationality: 'Omani'},
+  {nationality: 'Pakistani'},
+  {nationality: 'Palauan'},
+  {nationality: 'Palestinian'},
+  {nationality: 'Panamanian'},
+  {nationality: 'Papua New Guinean, Papuan'},
+  {nationality: 'Paraguayan'},
+  {nationality: 'Peruvian'},
+  {nationality: 'Philippine, Filipino'},
+  {nationality: 'Pitcairn Island'},
+  {nationality: 'Polish'},
+  {nationality: 'Portuguese'},
+  {nationality: 'Puerto Rican'},
+  {nationality: 'Qatari'},
+  {nationality: 'R\u00e9unionese, R\u00e9unionnais'},
+  {nationality: 'Romanian'},
+  {nationality: 'Russian'},
+  {nationality: 'Rwandan'},
+  {nationality: 'Barth\u00e9lemois'},
+  {nationality: 'Saint Helenian'},
+  {nationality: 'Kittitian or Nevisian'},
+  {nationality: 'Saint Lucian'},
+  {nationality: 'Saint-Martinoise'},
+  {nationality: 'Saint-Pierrais or Miquelonnais'},
+  {nationality: 'Saint Vincentian, Vincentian'},
+  {nationality: 'Samoan'},
+  {nationality: 'Sammarinese'},
+  {nationality: 'S\u00e3o Tom\u00e9an'},
+  {nationality: 'Saudi, Saudi Arabian'},
+  {nationality: 'Senegalese'},
+  {nationality: 'Serbian'},
+  {nationality: 'Seychellois'},
+  {nationality: 'Sierra Leonean'},
+  {nationality: 'Singaporean'},
+  {nationality: 'Sint Maarten'},
+  {nationality: 'Slovak'},
+  {nationality: 'Slovenian, Slovene'},
+  {nationality: 'Solomon Island'},
+  {nationality: 'Somali, Somalian'},
+  {nationality: 'South African'},
+  {nationality: 'South Georgia or South Sandwich Islands'},
+  {nationality: 'South Sudanese'},
+  {nationality: 'Spanish'},
+  {nationality: 'Sri Lankan'},
+  {nationality: 'Sudanese'},
+  {nationality: 'Surinamese'},
+  {nationality: 'Svalbard'},
+  {nationality: 'Swazi'},
+  {nationality: 'Swedish'},
+  {nationality: 'Swiss'},
+  {nationality: 'Syrian'},
+  {nationality: 'Chinese, Taiwanese'},
+  {nationality: 'Tajikistani'},
+  {nationality: 'Tanzanian'},
+  {nationality: 'Thai'},
+  {nationality: 'Timorese'},
+  {nationality: 'Togolese'},
+  {nationality: 'Tokelauan'},
+  {nationality: 'Tongan'},
+  {nationality: 'Trinidadian or Tobagonian'},
+  {nationality: 'Tunisian'},
+  {nationality: 'Turkish'},
+  {nationality: 'Turkmen'},
+  {nationality: 'Turks and Caicos Island'},
+  {nationality: 'Tuvaluan'},
+  {nationality: 'Ugandan'},
+  {nationality: 'Ukrainian'},
+  {nationality: 'Emirati, Emirian, Emiri'},
+  {nationality: 'British, UK'},
+  {nationality: 'American'},
+  {nationality: 'American'},
+  {nationality: 'Uruguayan'},
+  {nationality: 'Uzbekistani, Uzbek'},
+  {nationality: 'Ni-Vanuatu, Vanuatuan'},
+  {nationality: 'Venezuelan'},
+  {nationality: 'Vietnamese'},
+  {nationality: 'British Virgin Island'},
+  {nationality: 'U.S. Virgin Island'},
+  {nationality: 'Wallis and Futuna, Wallisian or Futunan'},
+  {nationality: 'Sahrawi, Sahrawian, Sahraouian'},
+  {nationality: 'Yemeni'},
+  {nationality: 'Zambian'},
+  {nationality: 'Zimbabwean'},
 ];
 
+const profile = [
+  {
+    id: 'FPM609056',
+    image:
+      'https://i1.wp.com/www.hindishayaricollections.com/wp-content/uploads/2019/09/beautiful-girls-images-wallpapers-6.jpg?resize=652%2C700&ssl=1',
+    name: 'Devlina Sarkar',
+    age: '37yrs,',
+    height: '162 cm,',
+    caste: 'SC,',
+    religion: 'Hindu : Brahmin',
+    city: 'Kolkata,',
+    state: 'West Bengal,',
+    country: 'India,',
+    education: 'B.A',
+  },
+  {
+    id: 'FPM609056',
+    image:
+      'https://dp.profilepics.in/profile_pictures/village-girl/village-girl-images-81.jpg',
+    name: 'Devlina Sarkar',
+    age: '37yrs,',
+    height: '162 cm,',
+    caste: 'SC,',
+    religion: 'Hindu : Brahmin',
+    city: 'Kolkata,',
+    state: 'West Bengal,',
+    country: 'India,',
+    education: 'B.A',
+  },
+  {
+    id: 'FPM609056',
+    image:
+      'https://i.pinimg.com/originals/c6/55/a2/c655a22ecb8cbf47b4cf708e8792be66.jpg',
+    name: 'Devlina Sarkar',
+    age: '37yrs,',
+    height: '162 cm,',
+    caste: 'SC,',
+    religion: 'Hindu : Brahmin',
+    city: 'Kolkata,',
+    state: 'West Bengal,',
+    country: 'India,',
+    education: 'B.A',
+  },
+  {
+    id: 'FPM609056',
+    image:
+      'https://1.bp.blogspot.com/-4l0CGOzR_2s/YGAWcctx5XI/AAAAAAAAVkU/ziLQpEpGhFUyhAyz76IUgaHnEibKanltACLcBGAsYHQ/w528-h640/5.jpg',
+    name: 'Devlina Sarkar',
+    age: '37yrs,',
+    height: '162 cm,',
+    caste: 'SC,',
+    religion: 'Hindu : Brahmin',
+    city: 'Kolkata,',
+    state: 'West Bengal,',
+    country: 'India,',
+    education: 'B.A',
+  },
+  {
+    id: 'FPM609056',
+    image:
+      'https://i.pinimg.com/originals/8d/4f/9a/8d4f9acba941874b4904e07528d73d02.jpg',
+    name: 'Devlina Sarkar',
+    age: '37yrs,',
+    height: '162 cm,',
+    caste: 'SC,',
+    religion: 'Hindu : Brahmin',
+    city: 'Kolkata,',
+    state: 'West Bengal,',
+    country: 'India,',
+    education: 'B.A',
+  },
+  {
+    id: 'FPM609056',
+    image:
+      'https://images.unsplash.com/photo-1623091411395-09e79fdbfcf3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Ym9sZCUyMGdpcmx8ZW58MHx8MHx8&w=1000&q=80',
+    name: 'Devlina Sarkar',
+    age: '37yrs,',
+    height: '162 cm,',
+    caste: 'SC,',
+    religion: 'Hindu : Brahmin',
+    city: 'Kolkata,',
+    state: 'West Bengal,',
+    country: 'India,',
+    education: 'B.A',
+  },
+];
 export {
   categories,
   communities,
@@ -1073,4 +661,5 @@ export {
   matrialStatus,
   country,
   nationality,
+  profile,
 };

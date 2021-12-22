@@ -165,7 +165,13 @@ const moredetails = ({navigation}) => {
               setSelectedValue(itemValue, itemIndex)
             }>
             {country.map((country, index) => {
-              return <Picker.Item label={country.name} value={country.name} />;
+              return (
+                <Picker.Item
+                  key={String(index)}
+                  label={country.name}
+                  value={country.name}
+                />
+              );
             })}
           </Picker>
         </View>
@@ -227,6 +233,7 @@ const moredetails = ({navigation}) => {
             {nationality.map((nationality, index) => {
               return (
                 <Picker.Item
+                  key={String(index)}
                   label={nationality.nationality}
                   value={nationality.nationality}
                 />

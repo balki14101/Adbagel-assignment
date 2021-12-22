@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, Image} from 'react-native';
+import {View, Text, Image, StyleSheet} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
@@ -11,9 +11,10 @@ import SplashScreen from './src/screens/splashscreen';
 import Register from './src/screens/register/personal';
 import MoreRegister from './src/screens/register/moredetails';
 import UploadImage from './src/screens/register/imageupload';
-import HomeScreen from './src/screens/home';
-import Details from './src/screens/details';
+import Bottomtabs from './src/screens/bottomtabs';
 
+import Icons from 'react-native-vector-icons/MaterialIcons';
+import {Width} from './src/constants/dimension';
 const Stack = createNativeStackNavigator();
 
 const App = () => {
@@ -102,19 +103,44 @@ const App = () => {
         />
 
         <Stack.Screen
-          name="Home"
-          component={HomeScreen}
+          name="Bottomtabs"
+          component={Bottomtabs}
           options={{
-            // headerStyle: {
-            //   backgroundColor: 'green',
-            // },
-            title: 'HOME',
+            headerShown: false,
+            //   headerStyle: {
+            //     backgroundColor: colors.GREEN,
+            //   },
+            //   headerTintColor: colors.WHITE,
+            //   headerTitleStyle: {
+            //     fontSize: 20,
+            //     fontWeight: '400',
+            //   },
+
+            //   headerTitleAlign: 'center',
+            //   title: 'HOME',
+            //   headerRight: () => {
+            //     return (
+            //       <View style={styles.iconsView}>
+            //         <Icons name="notifications" size={28} color={colors.WHITE} />
+
+            //         <Icons name="headset-mic" size={28} color={colors.WHITE} />
+            //       </View>
+            //     );
+            //   },
           }}
         />
-        <Stack.Screen name="Details" component={Details} />
+        {/* <Stack.Screen name="Details" component={Details} /> */}
       </Stack.Navigator>
     </NavigationContainer>
   );
 };
 
 export default App;
+
+const styles = StyleSheet.create({
+  iconsView: {
+    flexDirection: 'row',
+    width: Width / 5.4,
+    justifyContent: 'space-between',
+  },
+});

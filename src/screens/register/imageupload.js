@@ -69,7 +69,7 @@ const imageupload = ({navigation}) => {
   };
 
   const gotoUploadImage = () => {
-    navigation.navigate('Home');
+    navigation.navigate('Bottomtabs');
   };
 
   return (

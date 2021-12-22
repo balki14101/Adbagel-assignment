@@ -95,8 +95,14 @@ const personal = ({navigation}) => {
               onValueChange={(itemValue, itemIndex) =>
                 setSelectedValue(itemValue, itemIndex)
               }>
-              {communities.map(category => {
-                return <Picker.Item label={category.n} value={category.n} />;
+              {communities.map((category, index) => {
+                return (
+                  <Picker.Item
+                    key={String(index)}
+                    label={category.n}
+                    value={category.n}
+                  />
+                );
               })}
             </Picker>
           </View>
