@@ -1,9 +1,11 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {View, Text, Image} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
 import colors from './src/constants/colors';
+
+// import {useNavigation} from '@react-navigation/native';
 
 import SplashScreen from './src/screens/splashscreen';
 import Register from './src/screens/register/personal';
@@ -15,6 +17,11 @@ import Details from './src/screens/details';
 const Stack = createNativeStackNavigator();
 
 const App = () => {
+  // const navigation = useNavigation();
+
+  // function gotohome() {
+  //   navigation.navigate('Home');
+  // }
   return (
     <NavigationContainer>
       <Stack.Navigator
@@ -81,7 +88,16 @@ const App = () => {
             },
 
             headerTitleAlign: 'center',
-            title: 'REGISTER FREE!',
+            title: 'ADD PHOTO',
+            headerRight: () => {
+              return (
+                <Text
+                  // onPress={gotohome}
+                  style={{fontWeight: 'bold', color: colors.WHITE}}>
+                  {'SKIP'}
+                </Text>
+              );
+            },
           }}
         />
 

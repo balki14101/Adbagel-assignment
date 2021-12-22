@@ -232,11 +232,10 @@ const styles = StyleSheet.create({
   input: {
     height: 40,
     marginTop: 8,
-    borderWidth: 1,
-    borderColor: 'grey',
     padding: 10,
     borderRadius: 8,
     color: colors.BLACK,
+    backgroundColor: colors.WHITE,
   },
   continueButton: {
     backgroundColor: colors.GREEN_VARIENT1,
