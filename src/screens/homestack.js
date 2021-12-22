@@ -3,12 +3,13 @@ import {View, StyleSheet} from 'react-native';
 
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
-import {Width} from '../../constants/dimension';
-import colors from '../../constants/colors';
+import {Width} from '../constants/dimension';
+import colors from '../constants/colors';
 import Icons from 'react-native-vector-icons/MaterialIcons';
 
-import HomeScreen from './home';
-import DetailsScreen from './details';
+import HomeScreen from './bottomtabs/home';
+import DetailsScreen from './homestack/details';
+import bottomtabs from './homestack/bottomtabs';
 
 const Stack = createNativeStackNavigator();
 
@@ -25,9 +26,15 @@ const homestack = () => {
         },
       }}>
       <Stack.Screen
-        name="Home"
-        component={HomeScreen}
+        name="bottomtabs"
+        component={bottomtabs}
         options={{
+          title: 'Home',
+          headerTintColor: colors.WHITE,
+          headerTitleStyle: {
+            fontSize: 20,
+            fontWeight: '400',
+          },
           headerRight: () => {
             return (
               <View style={styles.iconsView}>
@@ -38,6 +45,7 @@ const homestack = () => {
           },
         }}
       />
+
       <Stack.Screen name="Details" component={DetailsScreen} />
     </Stack.Navigator>
   );

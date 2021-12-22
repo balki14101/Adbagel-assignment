@@ -69,7 +69,7 @@ const imageupload = ({navigation}) => {
   };
 
   const gotoUploadImage = () => {
-    navigation.navigate('Bottomtabs');
+    navigation.navigate('HomeStack');
   };
 
   return (

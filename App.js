@@ -11,10 +11,12 @@ import SplashScreen from './src/screens/splashscreen';
 import Register from './src/screens/register/personal';
 import MoreRegister from './src/screens/register/moredetails';
 import UploadImage from './src/screens/register/imageupload';
-import Bottomtabs from './src/screens/bottomtabs';
+import Bottomtabs from './src/screens/homestack/bottomtabs';
+import HomeStack from './src/screens/homestack';
 
 import Icons from 'react-native-vector-icons/MaterialIcons';
 import {Width} from './src/constants/dimension';
+import homestack from './src/screens/homestack';
 const Stack = createNativeStackNavigator();
 
 const App = () => {
@@ -103,8 +105,8 @@ const App = () => {
         />
 
         <Stack.Screen
-          name="Bottomtabs"
-          component={Bottomtabs}
+          name="HomeStack"
+          component={homestack}
           options={{
             headerShown: false,
             //   headerStyle: {
