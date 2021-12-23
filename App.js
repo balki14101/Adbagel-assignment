@@ -38,7 +38,7 @@ const App = () => {
       //   },
       // }}
       >
-        <Stack.Screen
+        {/* <Stack.Screen
           name="SplashScreen"
           component={SplashScreen}
           options={{headerShown: false}}
@@ -102,36 +102,15 @@ const App = () => {
               );
             },
           }}
-        />
+        /> */}
 
         <Stack.Screen
           name="HomeStack"
           component={homestack}
           options={{
             headerShown: false,
-            //   headerStyle: {
-            //     backgroundColor: colors.GREEN,
-            //   },
-            //   headerTintColor: colors.WHITE,
-            //   headerTitleStyle: {
-            //     fontSize: 20,
-            //     fontWeight: '400',
-            //   },
-
-            //   headerTitleAlign: 'center',
-            //   title: 'HOME',
-            //   headerRight: () => {
-            //     return (
-            //       <View style={styles.iconsView}>
-            //         <Icons name="notifications" size={28} color={colors.WHITE} />
-
-            //         <Icons name="headset-mic" size={28} color={colors.WHITE} />
-            //       </View>
-            //     );
-            //   },
           }}
         />
-        {/* <Stack.Screen name="Details" component={Details} /> */}
       </Stack.Navigator>
     </NavigationContainer>
   );

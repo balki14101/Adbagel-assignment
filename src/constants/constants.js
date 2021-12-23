@@ -573,8 +573,10 @@ const profile = [
     image:
       'https://i1.wp.com/www.hindishayaricollections.com/wp-content/uploads/2019/09/beautiful-girls-images-wallpapers-6.jpg?resize=652%2C700&ssl=1',
     name: 'Devlina Sarkar',
+    gender: 'Female',
     age: '37yrs,',
     height: '162 cm,',
+    bodyType: 'Average',
     caste: 'SC,',
     religion: 'Hindu : Brahmin',
     city: 'Kolkata,',
@@ -587,8 +589,10 @@ const profile = [
     image:
       'https://dp.profilepics.in/profile_pictures/village-girl/village-girl-images-81.jpg',
     name: 'Devlina Sarkar',
+    gender: 'Female',
     age: '37yrs,',
     height: '162 cm,',
+    bodyType: 'Average',
     caste: 'SC,',
     religion: 'Hindu : Brahmin',
     city: 'Kolkata,',
@@ -601,8 +605,10 @@ const profile = [
     image:
       'https://i.pinimg.com/originals/c6/55/a2/c655a22ecb8cbf47b4cf708e8792be66.jpg',
     name: 'Devlina Sarkar',
+    gender: 'Female',
     age: '37yrs,',
     height: '162 cm,',
+    bodyType: 'Average',
     caste: 'SC,',
     religion: 'Hindu : Brahmin',
     city: 'Kolkata,',
@@ -615,8 +621,10 @@ const profile = [
     image:
       'https://1.bp.blogspot.com/-4l0CGOzR_2s/YGAWcctx5XI/AAAAAAAAVkU/ziLQpEpGhFUyhAyz76IUgaHnEibKanltACLcBGAsYHQ/w528-h640/5.jpg',
     name: 'Devlina Sarkar',
+    gender: 'Female',
     age: '37yrs,',
     height: '162 cm,',
+    bodyType: 'Average',
     caste: 'SC,',
     religion: 'Hindu : Brahmin',
     city: 'Kolkata,',
@@ -629,8 +637,10 @@ const profile = [
     image:
       'https://i.pinimg.com/originals/8d/4f/9a/8d4f9acba941874b4904e07528d73d02.jpg',
     name: 'Devlina Sarkar',
+    gender: 'Female',
     age: '37yrs,',
     height: '162 cm,',
+    bodyType: 'Average',
     caste: 'SC,',
     religion: 'Hindu : Brahmin',
     city: 'Kolkata,',
@@ -643,8 +653,10 @@ const profile = [
     image:
       'https://images.unsplash.com/photo-1623091411395-09e79fdbfcf3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Ym9sZCUyMGdpcmx8ZW58MHx8MHx8&w=1000&q=80',
     name: 'Devlina Sarkar',
+    gender: 'Female',
     age: '37yrs,',
     height: '162 cm,',
+    bodyType: 'Average',
     caste: 'SC,',
     religion: 'Hindu : Brahmin',
     city: 'Kolkata,',
@@ -653,6 +665,8 @@ const profile = [
     education: 'B.A',
   },
 ];
+const text =
+  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
 export {
   categories,
   communities,
@@ -662,4 +676,5 @@ export {
   country,
   nationality,
   profile,
+  text,
 };
