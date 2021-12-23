@@ -44,100 +44,43 @@ const dashboard = ({navigation}) => {
                 style={styles.imageStyle}
                 resizeMode="cover"
               />
-              <View
-                style={{
-                  marginLeft: 8,
-                  justifyContent: 'space-between',
-                  marginTop: 8,
-                }}>
+              <View style={styles.contentView}>
                 <View>
-                  <Text style={{color: colors.BLACK, fontWeight: 'bold'}}>
-                    {item.id}
-                  </Text>
-                  <Text style={{color: colors.GREY}}>{item.name}</Text>
-                  <Text style={{color: colors.GREY}}>{item.religion}</Text>
-                  <View
-                    style={[
-                      styles.row,
-                      {
-                        width: Width / 2.4,
-                        justifyContent: 'space-between',
-                      },
-                    ]}>
-                    <Text style={{color: colors.GREY}}>{item.age}</Text>
-                    <Text style={{color: colors.GREY}}>{item.height}</Text>
-                    <Text style={{color: colors.GREY}}>{item.caste}</Text>
-                    <Text style={{color: colors.GREY}}>{item.city}</Text>
+                  <Text style={styles.idText}>{item.id}</Text>
+                  <Text style={styles.grey}>{item.name}</Text>
+                  <Text style={styles.grey}>{item.religion}</Text>
+                  <View style={styles.personalDetailsView}>
+                    <Text style={styles.grey}>{item.age}</Text>
+                    <Text style={styles.grey}>{item.height}</Text>
+                    <Text style={styles.grey}>{item.caste}</Text>
+                    <Text style={styles.grey}>{item.city}</Text>
                   </View>
-                  <View
-                    style={[
-                      styles.row,
-                      {
-                        width: Width / 2.6,
-                        justifyContent: 'space-between',
-                      },
-                    ]}>
-                    <Text style={{color: colors.GREY}}>{item.state}</Text>
-                    <Text style={{color: colors.GREY}}>{item.country}</Text>
-                    <Text style={{color: colors.GREY}}>{item.education}</Text>
+                  <View style={styles.personalDetailsView}>
+                    <Text style={styles.grey}>{item.state}</Text>
+                    <Text style={styles.grey}>{item.country}</Text>
+                    <Text style={styles.grey}>{item.education}</Text>
                   </View>
                 </View>
-                <View
-                  style={[
-                    styles.row,
-                    {
-                      justifyContent: 'space-between',
-                      alignItems: 'center',
-                      //   backgroundColor: 'red',
-                      width: Width / 1.7,
-                      marginTop: 8,
-                    },
-                  ]}>
-                  <View
-                    style={{justifyContent: 'center', alignItems: 'center'}}>
+                <View style={styles.cardBottomView}>
+                  <View style={styles.iconViewStyle}>
                     <StarIcon
                       name="star-circle-outline"
                       size={32}
                       color={colors.GREEN}
                     />
-                    <Text
-                      style={{
-                        color: colors.GREEN,
-                        fontSize: 8,
-                        fontWeight: 'bold',
-                      }}>
-                      {'SHORTLIST'}
-                    </Text>
+                    <Text style={styles.iconTextStyle}>{'SHORTLIST'}</Text>
                   </View>
-                  <View
-                    style={{justifyContent: 'center', alignItems: 'center'}}>
+                  <View style={styles.iconViewStyle}>
                     <CommentIcon
                       name="commenting"
                       size={32}
                       color={colors.GREEN}
                     />
-                    <Text
-                      style={{
-                        color: colors.GREEN,
-                        fontSize: 8,
-                        fontWeight: 'bold',
-                      }}>
-                      {'CHAT NOW'}
-                    </Text>
+                    <Text style={styles.iconTextStyle}>{'CHAT NOW'}</Text>
                   </View>
-                  <TouchableOpacity
-                    style={{
-                      flexDirection: 'row',
-                      justifyContent: 'center',
-                      alignItems: 'center',
-                      backgroundColor: colors.GREEN,
-                      height: Height / 24,
-                      //   Width: Width / 10,
-                      paddingHorizontal: 4,
-                    }}>
+                  <TouchableOpacity style={styles.requestButton}>
                     <HeartIcon name="heart" size={16} color={colors.WHITE} />
-                    <Text
-                      style={{fontSize: FONT_SIZE_SMALL, fontWeight: 'bold'}}>
+                    <Text style={styles.requestButtonText}>
                       {'SEND REQUEST'}
                     </Text>
                   </TouchableOpacity>
@@ -184,8 +127,42 @@ const styles = StyleSheet.create({
   row: {
     flexDirection: 'row',
   },
+  grey: {color: colors.GREY},
   imageStyle: {
     height: Height / 5,
     width: Width / 3,
   },
+  contentView: {
+    marginLeft: 8,
+    justifyContent: 'space-between',
+    marginTop: 8,
+  },
+  idText: {color: colors.BLACK, fontWeight: 'bold'},
+  personalDetailsView: {
+    flexDirection: 'row',
+    width: Width / 2.4,
+    justifyContent: 'space-between',
+  },
+  cardBottomView: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    width: Width / 1.7,
+    marginTop: 8,
+  },
+  iconViewStyle: {justifyContent: 'center', alignItems: 'center'},
+  iconTextStyle: {
+    color: colors.GREEN,
+    fontSize: 8,
+    fontWeight: 'bold',
+  },
+  requestButton: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: colors.GREEN,
+    height: Height / 24,
+    paddingHorizontal: 4,
+  },
+  requestButtonText: {fontSize: FONT_SIZE_SMALL, fontWeight: 'bold'},
 });

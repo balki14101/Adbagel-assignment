@@ -36,7 +36,6 @@ const imageupload = ({navigation}) => {
           uri: image.path,
         });
         setIsImageSelected(true);
-        // setShowPickerForProfilePicture(false);
       })
       .catch(error => {
         console.log('Api call error');
@@ -58,8 +57,6 @@ const imageupload = ({navigation}) => {
           height: image.height,
           mime: image.mime,
         });
-        // console.log('path:', profile);
-        // setIsImageSelected(true);
         setIsImageSelectedFromCamera(true);
       })
       .catch(error => {
@@ -109,19 +106,6 @@ const imageupload = ({navigation}) => {
         <Text style={styles.matchText}>
           {'1075 Matches will get to view your profile in 01:57:30 hours'}
         </Text>
-        {/* <TouchableOpacity
-          style={styles.imageContainer}
-          onPress={selectProfileImage}>
-          {isImageSelected ? (
-            <Image source={{uri: profile.uri}} style={styles.imageContainer} />
-          ) : (
-            <TouchableOpacity
-              style={styles.cameraCircle}
-              onPress={selectProfileImage}>
-              <CameraIcon size={15} color="white" name="camera" />
-            </TouchableOpacity>
-          )}
-        </TouchableOpacity> */}
         {isImageSelected ? (
           <TouchableOpacity onPress={chooseImageForProfile}>
             <Image
@@ -208,7 +192,6 @@ const styles = StyleSheet.create({
     fontSize: FONT_SIZE_NORMAL,
     fontWeight: '500',
     textAlign: 'center',
-    // backgroundColor: 'red',
     width: Width / 1.2,
     marginTop: 8,
   },

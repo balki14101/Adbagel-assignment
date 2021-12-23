@@ -2,10 +2,8 @@ import React, {useState} from 'react';
 import {
   View,
   Text,
-  Image,
   TextInput,
   StyleSheet,
-  ScrollView,
   TouchableOpacity,
 } from 'react-native';
 import {Switch, Button} from 'react-native-paper';

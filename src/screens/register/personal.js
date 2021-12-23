@@ -44,7 +44,6 @@ const personal = ({navigation}) => {
           }}>
           <Text
             style={{
-              // backgroundColor: colors.GREEN_VARIENT1,
               color: colors.WHITE,
               fontSize: FONT_SIZE_LARGE,
               fontWeight: '500',

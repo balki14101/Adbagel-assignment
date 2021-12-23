@@ -10,6 +10,7 @@ const Colors = {
   GREEN: '#02AF81',
   GREEN_VARIENT1: '#32878C',
   GREEN_VARIENT2: '#1F6168',
+  TRANSPARENT: '#00000000',
 };
 
 export default Colors;

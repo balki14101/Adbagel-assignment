@@ -6,7 +6,7 @@ import colors from '../../constants/colors';
 const justjoined = () => {
   return (
     <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-      <Text style={{color: colors.BLACK}}>This is justjoined</Text>
+      <Text style={{color: colors.BLACK}}>Yet to Come</Text>
     </View>
   );
 };

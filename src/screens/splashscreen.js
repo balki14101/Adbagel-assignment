@@ -11,13 +11,8 @@ import {
 import {Height, Width} from '../constants/dimension';
 import flower from '../assets/splashScreenImage.webp';
 import logo from '../assets/logo1.jpg';
-import {FONT_SIZE_LARGE} from '../constants/dimension';
 import colors from '../constants/colors';
-import {
-  FONT_SIZE_EXTRA_LARGE,
-  FONT_SIZE_MEDIUM,
-  FONT_SIZE_NORMAL,
-} from '../constants/fontsize';
+import {FONT_SIZE_EXTRA_LARGE} from '../constants/fontsize';
 
 const splashscreen = ({navigation}) => {
   function gotoregister() {

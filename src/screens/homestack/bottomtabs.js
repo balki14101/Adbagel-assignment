@@ -1,8 +1,7 @@
 import React from 'react';
-import {View, Text} from 'react-native';
-
-// import {createMaterialBottomTabNavigator} from '@react-navigation/material-bottom-tabs';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+
+import colors from '../../constants/colors';
 
 import HomeIcon from 'react-native-vector-icons/MaterialIcons';
 import MailIcon from 'react-native-vector-icons/Fontisto';
@@ -14,15 +13,12 @@ import SearchScreen from '../bottomtabs/search';
 import MailScreen from '../bottomtabs/mailbox';
 import Upgrade from '../bottomtabs/upgrade';
 import Profile from '../bottomtabs/profile';
-import colors from '../../constants/colors';
 
 const Tab = createBottomTabNavigator();
 
 function bottomtabs() {
   return (
     <Tab.Navigator
-      activeColor="#f0edf6"
-      inactiveColor="#000000"
       screenOptions={{
         tabBarActiveTintColor: 'yellow',
         tabBarInactiveTintColor: colors.WHITE,

@@ -1,44 +1,25 @@
 import React from 'react';
-import {View, Text, Image, StyleSheet} from 'react-native';
+import {Text, StyleSheet} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
 import colors from './src/constants/colors';
 
-// import {useNavigation} from '@react-navigation/native';
-
 import SplashScreen from './src/screens/splashscreen';
 import Register from './src/screens/register/personal';
 import MoreRegister from './src/screens/register/moredetails';
 import UploadImage from './src/screens/register/imageupload';
-import Bottomtabs from './src/screens/homestack/bottomtabs';
 import HomeStack from './src/screens/homestack';
 
-import Icons from 'react-native-vector-icons/MaterialIcons';
 import {Width} from './src/constants/dimension';
-import homestack from './src/screens/homestack';
+
 const Stack = createNativeStackNavigator();
 
 const App = () => {
-  // const navigation = useNavigation();
-
-  // function gotohome() {
-  //   navigation.navigate('Home');
-  // }
   return (
     <NavigationContainer>
-      <Stack.Navigator
-      // screenOptions={{
-      //   headerStyle: {
-      //     backgroundColor: '#02AF81',
-      //   },
-      //   headerTintColor: '#fff',
-      //   headerTitleStyle: {
-      //     fontWeight: '300',
-      //   },
-      // }}
-      >
-        {/* <Stack.Screen
+      <Stack.Navigator>
+        <Stack.Screen
           name="SplashScreen"
           component={SplashScreen}
           options={{headerShown: false}}
@@ -94,19 +75,17 @@ const App = () => {
             title: 'ADD PHOTO',
             headerRight: () => {
               return (
-                <Text
-                  // onPress={gotohome}
-                  style={{fontWeight: 'bold', color: colors.WHITE}}>
+                <Text style={{fontWeight: 'bold', color: colors.WHITE}}>
                   {'SKIP'}
                 </Text>
               );
             },
           }}
-        /> */}
+        />
 
         <Stack.Screen
           name="HomeStack"
-          component={homestack}
+          component={HomeStack}
           options={{
             headerShown: false,
           }}
