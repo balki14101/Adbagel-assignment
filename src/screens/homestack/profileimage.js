@@ -10,6 +10,8 @@ import LinearGradient from 'react-native-linear-gradient';
 
 import {Height, Width} from '../../constants/dimension';
 
+import {useNavigation} from '@react-navigation/native';
+
 import colors from '../../constants/colors';
 
 import {
@@ -30,6 +32,8 @@ import HeartIcon from 'react-native-vector-icons/MaterialCommunityIcons';
 const profileimage = props => {
   console.log('profileimage', props);
   const item = props.props;
+
+  const navigation = useNavigation();
   return (
     <ImageBackground
       source={{uri: item.image}}
@@ -45,7 +49,14 @@ const profileimage = props => {
         style={styles.linearGradient}>
         <View style={styles.headerView}>
           <View style={styles.idView}>
-            <BackIcon name="arrowleft" color={colors.WHITE} size={28} />
+            <BackIcon
+              name="arrowleft"
+              color={colors.WHITE}
+              size={28}
+              onPress={() => {
+                navigation.goBack();
+              }}
+            />
             <Text style={styles.idText}>{item.id}</Text>
           </View>
           <OptionsIcon name="options-vertical" color={colors.WHITE} size={16} />

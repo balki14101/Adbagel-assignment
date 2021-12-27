@@ -3,6 +3,7 @@ import {View, Text, StyleSheet} from 'react-native';
 
 import ProfileImage from './profileimage';
 import ProfileDetails from './profiledetails';
+import colors from '../../constants/colors';
 
 const details = props => {
   console.log(props.route.params);
@@ -19,5 +20,6 @@ export default details;
 var styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: colors.WHITE,
   },
 });
